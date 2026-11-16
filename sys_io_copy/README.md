@@ -1,0 +1,3 @@
+- 程序功能：文件拷贝
+- 重点：区分系统调用 IO 和 stdio 缓冲 IO、短写重试、EINTR 处理
+- 编译命令：`gcc mycp.c -o mycp`，运行：`./mycp src dst`
